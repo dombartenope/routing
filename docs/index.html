@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>RoutingApp</title>
+  <base href="/routing">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
+<body>
+  <app-root>
+    <h1>Angular Router App</h1>
+<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+<nav>
+  <ul>
+    <li><a routerlink="/first" routerlinkactive="active" ariacurrentwhenactive="page">First Component</a></li>
+    <li><a routerlink="/second" routerlinkactive="active" ariacurrentwhenactive="page">Second Component</a></li>
+  </ul>
+</nav>
+<!-- The routed views render in the <router-outlet>-->
+<router-outlet></router-outlet>
+  </app-root>
+<script src="runtime.d987da1d015d9a0a.js" type="module"></script><script src="polyfills.5e0fcdd3fc9509fb.js" type="module"></script><script src="main.7ab032bb6faf5848.js" type="module"></script>
+
+</body></html>
